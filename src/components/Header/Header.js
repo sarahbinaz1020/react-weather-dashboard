@@ -8,8 +8,10 @@ function Header() {
   return (
     <div>
       <Container className="header" fluid>
-        <Row >
-          <Col ><p className="header-text text-center">Weather Dashboard</p></Col>
+        <Row>
+          <Col>
+            <p className="header-text text-center mt-2 mb-4">Weather Dashboard</p>
+          </Col>
         </Row>
         <Row>
           <Col>

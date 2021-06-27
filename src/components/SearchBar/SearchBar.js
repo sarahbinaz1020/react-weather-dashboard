@@ -1,18 +1,21 @@
 import React from 'react';
 import "./searchbar.css";
-import {Form, FormControl, Button } from "react-bootstrap";
+import { InputGroup, FormControl, Button } from "react-bootstrap";
 
 function SearchBar() {
     return (
-        <Form className="d-flex">
+      <InputGroup>
+      
       <FormControl
         type="search"
         placeholder="Search by City..."
         className="mr-2"
         aria-label="Search"
+        // onChange={handleInputChange}
       />
-      <Button variant="outline-success">Search</Button>
-    </Form>
+      <Button variant="outline-light">Search</Button>
+   
+      </InputGroup>
     )
 }
 
