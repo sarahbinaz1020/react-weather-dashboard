@@ -3,7 +3,7 @@ import "./App.css";
 // import API from "./utils/API";
 import { Container } from "react-bootstrap";
 import { HashRouter as Router, Route } from "react-router-dom";
-import NavBar from "./components/Navbar/NavBar";
+import Header from "./components/Header/Header"
 import Wrapper from "./components/Wrapper/Wrapper";
 import Dashboard from "./pages/Dashboard/Dashboard";
 import Daily from "./pages/Daily/Daily";
@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <Router>
-        <NavBar />
+        <Header></Header>
         <Container className="App-header" fluid>
           <Wrapper>
             <Route exact path="/" component={Dashboard} />
