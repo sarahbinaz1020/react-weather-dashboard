@@ -7,9 +7,9 @@ import "./header.css";
 function Header() {
   return (
     <div>
-      <Container fluid>
-        <Row>
-          <Col>Weather Dashboard</Col>
+      <Container className="header" fluid>
+        <Row >
+          <Col ><p className="header-text text-center">Weather Dashboard</p></Col>
         </Row>
         <Row>
           <Col>
