@@ -3,7 +3,7 @@ import React from 'react'
 function FutureForecast() {
     return (
         <div>
-            
+            future forecast
         </div>
     )
 }
