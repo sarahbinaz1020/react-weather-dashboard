@@ -1,13 +1,20 @@
 import React from 'react'
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Navbar, Nav } from "react-bootstrap";
 
 function NavBar() {
     return (
-        <Container fluid>
-        <Row>
-          <Col>Navbar goes here</Col>
-        </Row>
-      </Container>
+        <Navbar expand="lg">
+  <Container>
+    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+    <Navbar.Collapse id="basic-navbar-nav">
+      <Nav className="me-auto">
+        <Nav.Link href="#/">Home</Nav.Link>
+        <Nav.Link href="#/Daily">Daily Forecast</Nav.Link>
+    
+      </Nav>
+    </Navbar.Collapse>
+  </Container>
+</Navbar>
     )
 }
 

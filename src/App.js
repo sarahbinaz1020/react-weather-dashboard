@@ -16,7 +16,7 @@ function App() {
         <Header></Header>
         <Container className="App-header" fluid>
           <Wrapper>
-            <Route exact path="/" component={Dashboard} />
+            <Route exact path="#/" component={Dashboard} />
             <Route path="/Daily" component={Daily} />
           </Wrapper>
         </Container>
