@@ -1,21 +1,22 @@
-import React from 'react'
-import { Container, Navbar, Nav } from "react-bootstrap";
+import React from "react";
+import "./navbar.css";
+import { Navbar, Nav } from "react-bootstrap";
 
 function NavBar() {
-    return (
-        <Navbar expand="lg">
-  <Container>
-    <Navbar.Toggle aria-controls="basic-navbar-nav" />
-    <Navbar.Collapse id="basic-navbar-nav">
-      <Nav className="me-auto">
-        <Nav.Link href="#/">Home</Nav.Link>
-        <Nav.Link href="#/Daily">Daily Forecast</Nav.Link>
-    
+  return (
+    <Navbar expand="lg">
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+
+      <Nav className="me-auto align-items-end justify-content-end">
+        <Nav.Link href="#/" className="nav-text text-white ">
+          Home
+        </Nav.Link>
+        <Nav.Link href="#/Daily" className="nav-text text-white">
+          Daily Forecast
+        </Nav.Link>
       </Nav>
-    </Navbar.Collapse>
-  </Container>
-</Navbar>
-    )
+    </Navbar>
+  );
 }
 
-export default NavBar
+export default NavBar;

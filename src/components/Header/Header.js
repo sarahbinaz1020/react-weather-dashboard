@@ -16,7 +16,7 @@ function Header() {
         <Row>
           <Col>
             <SearchBar></SearchBar>
-          </Col>
+          </Col><Col></Col>
           <Col>
             <NavBar></NavBar>
           </Col>
