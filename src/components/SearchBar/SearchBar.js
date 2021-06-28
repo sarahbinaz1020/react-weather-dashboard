@@ -9,11 +9,11 @@ function SearchBar() {
       <FormControl
         type="search"
         placeholder="Search by City..."
-        className="mr-2"
+        className="ml-3 mr-4 searchbar"
         aria-label="Search"
         // onChange={handleInputChange}
       />
-      <Button variant="outline-light">Search</Button>
+      <Button variant="outline-dark">Search</Button>
    
       </InputGroup>
     )

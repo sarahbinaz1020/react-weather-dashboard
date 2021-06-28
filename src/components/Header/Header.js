@@ -10,13 +10,16 @@ function Header() {
       <Container className="header" fluid>
         <Row>
           <Col>
-            <p className="header-text text-center mt-2 mb-4">Weather Dashboard</p>
+            <p className="header-text text-center mt-2 mb-4">
+              Weather Dashboard
+            </p>
           </Col>
         </Row>
         <Row>
           <Col>
             <SearchBar></SearchBar>
-          </Col><Col></Col>
+          </Col>
+          <Col></Col>
           <Col>
             <NavBar></NavBar>
           </Col>
