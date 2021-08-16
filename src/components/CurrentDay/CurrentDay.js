@@ -5,7 +5,7 @@ import "./currentday.css";
 function CurrentDay() {
     return (
         <div>
-            current forecast
+            HELLO this is current day
         </div>
     )
 }

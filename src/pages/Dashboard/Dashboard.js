@@ -1,12 +1,13 @@
 import React from "react";
 import "./dashboard.css";
+// import { Container } from "react-bootstrap";
 import CurrentDay from "../../components/CurrentDay/CurrentDay";
 
 function Dashboard() {
   return (
-    <div>
+   <>
       <CurrentDay></CurrentDay>
-    </div>
+    </>
   );
 }
 
