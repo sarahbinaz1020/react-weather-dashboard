@@ -1,9 +1,9 @@
 import axios from "axios";
 
 const API = {
-    // Gets all users
-    getUsers: function () {
-      return axios.get("");
+    // Gets current weather
+    getWeather: function () {
+      return axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${API_KEY}`);
     },
   };
   
