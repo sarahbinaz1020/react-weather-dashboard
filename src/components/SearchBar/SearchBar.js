@@ -4,7 +4,7 @@ import { InputGroup, FormControl, Button } from "react-bootstrap";
 
 function SearchBar() {
     return (
-      <InputGroup>
+      <InputGroup >
       
       <FormControl
         type="search"
@@ -13,7 +13,7 @@ function SearchBar() {
         aria-label="Search"
         // onChange={handleInputChange}
       />
-      <Button variant="outline-dark">Search</Button>
+      <Button variant="danger">Search</Button>
    
       </InputGroup>
     )

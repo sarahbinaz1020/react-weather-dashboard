@@ -1,7 +1,7 @@
 .header {
     background-image: url("../../assets/images/weather-clouds-r.jpg");
     background-size: cover;
-    text-shadow: 2px 2px #000000;
+    
 }
 
 .header-text {
@@ -9,8 +9,9 @@
     font-size: 70px;
     font-family: 'Comfortaa', cursive;
     font-weight: 600;
+    text-shadow: 2px 2px #000000;
 }
 
 .searchbar {
-    border-color: #000;
+    border-color: 2px #000;
 }

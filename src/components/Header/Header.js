@@ -16,10 +16,10 @@ function Header() {
           </Col>
         </Row>
         <Row>
-          <Col>
-            <SearchBar></SearchBar>
-          </Col>
           <Col></Col>
+          <Col>
+            <SearchBar className="searchbar d-flex"></SearchBar>
+          </Col>
           <Col>
             <NavBar></NavBar>
           </Col>
